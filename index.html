@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Mieterselbstauskunft</title>
+
+    <style>
+
+		*
+		{
+			box-sizing: border-box;
+		}
+
+		body
+		{
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+			background: #f3f4f6;
+			color: #111827;
+		}
+
+		.container
+		{
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 48px 24px 64px;
+		}
+
+		.header
+		{
+			text-align: center;
+			margin-bottom: 24px;
+		}
+
+		.header h1
+		{
+			margin: 0;
+			font-size: 32px;
+		}
+
+		.header p
+		{
+			margin: 16px auto 0;
+			max-width: 700px;
+			font-size: 18px;
+			line-height: 1.6;
+			color: #4b5563;
+		}
+
+		.middle-links
+		{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 14px;
+			margin-bottom: 44px;
+		}
+
+		.middle-links a
+		{
+			display: inline-block;
+			padding: 14px 20px;
+			background: #ffffff;
+			color: #111827;
+			text-decoration: none;
+			border-radius: 16px;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+			font-weight: 600;
+			transition: transform 0.2s ease, box-shadow 0.2s ease;
+		}
+
+		.middle-links a:hover
+		{
+			transform: translateY(-2px);
+			box-shadow: 0 8px 22px rgba(0, 0, 0, 0.10);
+		}
+
+		.grid {
+			display: grid;
+			gap: 12px;
+		}
+
+		.card
+		{
+			display: block;
+			background: #ffffff;
+			border-radius: 24px;
+			overflow: hidden;
+			text-decoration: none;
+			color: inherit;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+			transition: transform 0.25s ease, box-shadow 0.25s ease;
+		}
+
+		.card:hover
+		{
+			transform: translateY(-4px);
+			background: #eeeeee;
+			box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+		}
+
+		.card-content
+		{
+			padding: 18px;
+		}
+
+		.card-content h2
+		{
+			margin: 0 0 10px;
+			font-size: 22px;
+		}
+
+		.card-content p
+		{
+			margin: 0;
+			font-size: 15px;
+			line-height: 1.6;
+			color: #4b5563;
+		}
+
+		.open-text
+		{
+			margin-top: 16px;
+			display: inline-block;
+			font-size: 14px;
+			font-weight: 700;
+		}
+
+		.footer-note
+		{
+			margin-top: 48px;
+			background: #ffffff;
+			border-radius: 24px;
+			padding: 24px;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+			color: #374151;
+			line-height: 1.7;
+		}
+
+		code
+		{
+			background: #f3f4f6;
+			padding: 2px 6px;
+			border-radius: 6px;
+		}
+
+		@media (max-width: 640px)
+		{
+			.header h1
+			{
+				font-size: 32px;
+			}
+
+			.header p
+			{
+				font-size: 16px;
+			}
+
+			.card img
+			{
+				height: 260px;
+			}
+		}
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+
+        <h1>Mieterselbstauskunft</h1>
+
+    </div>
+
+    <div class="grid">
+
+        <a class="card" href="PDF/Mieterselbstauskunft.pdf" target="_blank">
+
+            <div class="card-content">
+                <h2>Mieterselbstauskunft</h2>
+                <p></p>
+                <span class="open-text">Open PDF</span>
+            </div>
+        </a>
+
+        <a class="card" href="PDF/Arbeitsvertrag.pdf" target="_blank">
+            <div class="card-content">
+                <h2>Arbeitsvertrag Amazon</h2>
+                <p>ab 01.05.2026</p>
+                <span class="open-text">Open PDF</span>
+            </div>
+        </a>
+
+    <a class="card" href="PDF/Buergschaftserklaerung.pdf" target="_blank">
+        <div class="card-content">
+            <h2>Bürgschaftserklärung</h2>
+            <p></p>
+            <span class="open-text">Open PDF</span>
+        </div>
+    </a>
+
+    <a class="card" href="PDF/Bonitaetsauskunft.pdf" target="_blank">
+        <div class="card-content">
+            <h2>Bonitätsauskunft</h2>
+            <p></p>
+            <span class="open-text">Open PDF</span>
+        </div>
+    </a>
+
+    <a class="card" href="PDF/Mietzahlungsbestaetigung.pdf" target="_blank">
+        <div class="card-content">
+            <h2>Mietzahlungsbestätigung</h2>
+            <p></p>
+            <span class="open-text">Open PDF</span>
+        </div>
+    </a>
+
+    <a class="card" href="PDF/Identitaetsnachweis.pdf" target="_blank">
+        <div class="card-content">
+            <h2>Identitätsnachweis</h2>
+            <p></p>
+            <span class="open-text">Open PDF</span>
+        </div>
+    </a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
