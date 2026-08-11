@@ -29,7 +29,7 @@
 }
 
 .Menu-Title {
-    font-size: 128px;
+    font-size: 32px;
     font-weight: 700;
     letter-spacing: 0.8px;
     text-shadow: 0 1px 1px rgb(255 255 255 / 70%);
@@ -98,7 +98,7 @@
 .Menu-Navigation > ul > li > a:hover,
 .Menu-Navigation > ul > li > a:focus-visible,
 .Menu-Navigation > ul > li > span:hover {
-    color: #0f1f27;
+    color: #ff0000;
     text-decoration: underline;
     text-decoration-color: #586f7c;
     text-decoration-thickness: 2px;
